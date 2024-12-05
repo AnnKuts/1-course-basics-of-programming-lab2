@@ -1,7 +1,5 @@
-'use strict';
-
-// Prepare function to print greeting with single argument
-
-const hello = null;
-
+"use strict";
+const hello = (name) => {
+  console.log(`Hello, ${name}!`);
+};
 module.exports = { hello };

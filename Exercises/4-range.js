@@ -1,8 +1,10 @@
-'use strict';
-
-// Implement function `range(start: number, end: number): array` returning
-// array with all numbers from the range [15, 30] including endpoints
-
-const range = null;
-
+"use strict";
+const range = (start, end) => {
+    const length = [];
+    for (let i = start; i <= end; i++) {
+      length.push(i);
+    }
+    return length;
+  };
+  console.log(range(15,30));
 module.exports = { range };
