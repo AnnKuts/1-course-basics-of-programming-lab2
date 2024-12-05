@@ -10,5 +10,5 @@ const findPhoneByName = (name) => {
     if (obj.name === name) return obj.phone;
   }
 };
-
+console.log(findPhoneByName("Anna"));
 module.exports = { phonebook, findPhoneByName };
