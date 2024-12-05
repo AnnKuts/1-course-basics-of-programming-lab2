@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 const rangeOdd = (start, end) => {
   const length = [];
@@ -9,5 +9,5 @@ const rangeOdd = (start, end) => {
   }
   return length;
 };
-
+console.log(rangeOdd(15,30));
 module.exports = { rangeOdd };
